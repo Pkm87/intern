@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 50px 20px;
+}
+
+.cta-btn {
+    background: white;
+    color: #007bff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #eef5ff;
+    padding: 40px 20px;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 400px;
+    font-style: italic;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 40px 20px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.social-links a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+@media (max-width: 768px) {
+    .feature-grid, .pricing-grid {
+        flex-direction: column;
+    }
+}
